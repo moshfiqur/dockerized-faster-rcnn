@@ -4,7 +4,7 @@ A dockerized implementation of Faster-RCNN object detection running on gunicorn.
 ### Prerequisite
 - The tensorflow models zoo available here https://github.com/tensorflow/models. The downloaded path should be used instead of `/srv/downloads/ml-datasets/tf-models`.
 - The already trained Faster-RCNN model named faster_rcnn_inception_resnet_v2_atrous_lowproposals_oid_2018_01_28
- can be downloaded from [here][1].
+ can be downloaded from [here][1]. The downloaded models should be available as in `/srv/downloads/ml-datastes/pretrained-models/faster_rcnn_resnet_v2`.
 
 [1]: http://download.tensorflow.org/models/object_detection/faster_rcnn_inception_resnet_v2_atrous_lowproposals_coco_2018_01_28.tar.gz
 

@@ -6,7 +6,10 @@ A dockerized implementation of Faster-RCNN object detection running on gunicorn.
 - The already trained Faster-RCNN model named faster_rcnn_inception_resnet_v2_atrous_lowproposals_oid_2018_01_28
  can be downloaded from [here][1].
 
-[1]: http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v2_coco_2018_03_29.tar.gz
+[1]: http://download.tensorflow.org/models/object_detection/faster_rcnn_inception_resnet_v2_atrous_lowproposals_coco_2018_01_28.tar.gz
+
+For other interesting trained models, check [here][2].
+[2]: https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
 
 ### Build command
 ```
